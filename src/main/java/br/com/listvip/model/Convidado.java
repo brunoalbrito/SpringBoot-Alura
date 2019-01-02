@@ -3,13 +3,16 @@ package br.com.listvip.model;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
 import javax.persistence.Id;
 
 @Entity(name="convidado")
 public class Convidado {
 
     @Id
-    @GeneratedValue
+    //Foi adicionado o GenerationType.Identity
+    // pois o banco de dados ja gerencia o autoincrement
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private long id;
 
     private String nome;
@@ -17,6 +20,16 @@ public class Convidado {
     private String email;
 
     private String telefone;
+
+    public  Convidado(){
+
+    }
+
+    public Convidado(String nome, String email, String telefone) {
+        this.nome = nome;
+        this.email = email;
+        this.telefone = telefone;
+    }
 
     public long getId() {
         return id;
