@@ -6,8 +6,8 @@
 ### Índice
 * [Objetivo](#objetivo)
 * [Como utilizar?](#comoutilizar)
-    - [Passo a passo]()
-    - [Estrutura]()
+    - [Passo a passo](#)
+    - [Estrutura](#)
 * [Dicas](#dicas)
 * [Contatos](#contatos)
 
@@ -15,7 +15,7 @@
 
 ## Objetivo <img src="./Asserts_Readme/goal.png" width="40" height="40" />
 
-Bem-vindo! Esse projeto tem como objetivo ser um material de resolução do curso **Spring Boot Agilidade no desenvolvimento java com Spring** da Alura, pois é um projeto base utilizando a estrutura oferecida pelo SprintBoot, com ele foi construída uma aplicação **Web Service (API)** que interage com um banco de dados MySQL, o projeto foi desenvolvido no IntelliJ IDE a fim de fornecer skills para utilização do mesmo. Bibliotecas que fazem parte do stack Spring foram utilizados e serão destacados abaixo, além disso, o projeto está construído sob o gerenciar de pacotes Maven,  que posso contribuir para seu conhecimento
+Bem-vindo! Esse projeto tem como objetivo ser um material de resolução do curso **Spring Boot Agilidade no desenvolvimento java com Spring** da Alura, pois é um projeto base utilizando a estrutura oferecida pelo **SprintBoot**, com ele foi construída uma aplicação **Web Service (API)** que interage com um banco de dados **MySQL**, o projeto foi desenvolvido no **IntelliJ IDE** a fim de fornecer skills para utilização do mesmo. Bibliotecas que fazem parte do stack Spring foram utilizados e serão destacados abaixo, além disso, o projeto está construído sob o gerenciar de pacotes **Maven**,  que posso contribuir para seu conhecimento
 
 <div id='comoutilizar'>
 
