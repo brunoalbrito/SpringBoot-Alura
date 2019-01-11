@@ -15,7 +15,7 @@
 
 ## Objetivo <img src="./Asserts_Readme/goal.png" width="40" height="40" />
 
-Bem-vindo! Esse projeto tem como objetivo fornecer um exemplo de solução e um passo a passo de como criar e utilizar do framework Sprint Boot para criar uma aplicação Restful dentro do ambiente banco, para isso é necessário a a personalização da ferramenta Eclipse Neon para permitir o importe de bibliotecas externas, execução e testes como requisição Http utilizando o Web-Browser, que possa contribuir para com o seu conhecimento.
+Bem-vindo! Esse projeto tem como objetivo ser um material de resolução do curso **Spring Boot Agilidade no desenvolvimento java com Spring** da Alura, pois é um projeto base utilizando a estrutura oferecida pelo SprintBoot, com ele foi construída uma aplicação **Web Service (API)** que interage com um banco de dados MySQL, o projeto foi desenvolvido no IntelliJ IDE a fim de fornecer skills para utilização do mesmo. Bibliotecas que fazem parte do stack Spring foram utilizados e serão destacados abaixo, além disso, o projeto está construído sob o gerenciar de pacotes Maven,  que posso contribuir para seu conhecimento
 
 <div id='comoutilizar'>
 
@@ -23,7 +23,7 @@ Bem-vindo! Esse projeto tem como objetivo fornecer um exemplo de solução e um 
 
 ### Passo a passo <img src="./Asserts_Readme/step.png" width="25" height="25" />
 
-1. Vá até a Central de Software e instale o **GitHub** e o **Eclipse Neon**, caso eles ainda não estejam instalados.
+<!-- 1. Vá até a Central de Software e instale o **GitHub** e o **Eclipse Neon**, caso eles ainda não estejam instalados.
 
 2. Now clone it:
 
@@ -53,7 +53,7 @@ Bem-vindo! Esse projeto tem como objetivo fornecer um exemplo de solução e um 
 6. Once you're done editing and want to publish the site to GitHub Pages:
 
     ```sh
-    $ npm run deploy
+    $ npm run deploy -->
 
 
 
@@ -64,14 +64,21 @@ A estrutura básica do projeto se dá na seguinte forma:
 .
 |-- out/
 |-- src/
-|   |-- documents
-|   |-- layouts
-|   |-- partials
-|-- docpad.js
-|-- package.json
+|       |-- main/
+|           |-- java/br.com.listvip/
+|               |--model/
+|               |--repository/
+|           |-- resource/
+|                |-- static/
+|                |-- templates/
+|                |-- application.properties
+|       |-- test   
+|-- pom.xml
+|-- .gitignore
+|-- db.listavip.sql
 ```
 
-### out/
+<!-- ### out/
 
 É onde os arquivos gerados são armazenados, uma vez que o DocPad tenha sido rodado. Porém, esse diretório se torna desnecessário no versionamento, por isso está ignorado ([.gitignore](https://github.com/braziljs/conf-boilerplate/blob/master/.gitignore)).
 
@@ -93,7 +100,7 @@ Armazena de forma fácil a maior parte das configurações da aplicação.
 
 ### [package.json](https://github.com/braziljs/conf-boilerplate/blob/master/package.json)
 
-Lista as dependências de módulos do NodeJS.
+Lista as dependências de módulos do NodeJS. -->
 
 
 <div id='dicas'>
